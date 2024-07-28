@@ -1,0 +1,120 @@
+body {
+    background-color: #202124;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #e8e8e8;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Google logo css below */
+.google-logo{
+    display: block;
+    margin: 123px auto 35px auto;
+}
+
+.search-box{
+    display: flex;
+    padding: 14px 47px;
+    margin: 0 auto;
+    background-color: #202124;
+    border: 1px solid #5f6368;
+    border-radius: 50px;
+    width: 476px;
+    color: #e8e8e8;
+    font-size: 15px;
+}
+
+.search-box:hover, .search-box:focus{
+    box-shadow: 0 1px 3px rgba(16, 16, 16, 0.24);
+    outline: none;
+    background-color: #303134;
+    border: 1px solid #202124;
+}
+
+.search-box-wrapper{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: 572px;
+    height: 48px;
+    /* border: 1px solid blue; */
+    /* background-color: pink; */
+}
+
+.search-box-wrapper img{
+    position: absolute;
+    /* width: 20px; */
+}
+
+.search-icon{
+    top: 13px;
+    left: 16px;
+    width: 20px;
+}
+
+.voice-search-icon{
+    top: 11px;
+    right: 60px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.lens-icon{
+    top: 11px;
+    right: 20px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.btn-wrapper{
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn{
+    background-color: #303134;
+    color: #e8e8e8;
+    border-style: none;
+    padding: 10px 17px;
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-radius: 4px;
+
+    /* by using this below, when i hover over it and border appears then it will not increase box's size  */
+    /* box-sizing: border-box; */
+}
+
+.btn:hover{
+    border: 1px solid #676767;
+    padding: 9px 16px;
+    cursor: pointer;
+}
+
+
+.languages-div {
+    display: block;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.languages-div  pre {
+    color: #c6c6c6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+.languages-div a {
+    color: #99c3ff;
+    text-decoration: none;
+}
+
+.languages-div a:hover {
+    text-decoration: underline;
+}

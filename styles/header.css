@@ -1,12 +1,3 @@
-body {
-    background-color: #202124;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
-
 .top-bar{
     display: flex;
     flex-wrap: wrap;
@@ -35,11 +26,11 @@ body {
 }
 
 .images-a{
-    padding: 5px 15px;
+    margin: 0 3px 0 5px;
 }
 
 .search-labs-a, .google-apps-a, .profile-photo-img{
-    margin: 0 8px;
+    margin: 0 6px;
 }
 
 .search-labs-img, .google-apps-img {
@@ -50,29 +41,19 @@ body {
 }
 
 .profile-photo-img{
-    height: 32px;
-    width: 32px;
+    height: 30px;
+    /* width: 30px; */
     vertical-align: middle;
     margin-bottom: 4px;
     border-radius: 50%;
 }
 
 
-/* Google logo css below */
-.google-logo{
-    display: block;
-    margin: 120px auto 35px auto;
+.about-a:hover, .store-a:hover, .gmail-a:hover, .images-a:hover{
+    text-decoration: underline;
 }
 
-.search-box{
-    display: flex;
-    padding: 14px 50px;
-    margin: 0 auto;
-    background-color: #202124;
-    border: 1px solid #5f6368;
-    border-radius: 50px;
-    width: 470px;
-    color: #e8e8e8;
-    font-size: 15px;
-}
-
+/* .search-labs-a:hover, .google-apps-a:hover {
+    background-color: #474a50;
+    transition: background-color 0.7s;
+} */

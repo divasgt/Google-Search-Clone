@@ -2,9 +2,12 @@
 <html lang="en">
     <head>
         <title>Google</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/header.css">
     </head>
     <body>
+        <!-- HEADER -->
         <div class="top-bar">
             <div>
                 <a class="about-a" href="https://about.google/">About</a>
@@ -19,10 +22,44 @@
             </div>
         </div>
 
-        <img class="google-logo" src="images/googlelogo_light_color_272x92dp.png" alt="googlelogo_light_color_272x92dp">
+        <!-- MIDDLE SECTION -->
+        <img class="google-logo" src="images/googlelogo_light_color_272x92dp.png">
+
         <form action="https://www.google.com/search">
-            <input class="search-box" type="text" name="q">
-            <input class="submit-btn" type="submit" value="Google Search">
+
+            <div class="search-box-wrapper">
+                <input class="search-box" type="text" name="q">
+                <img class="search-icon" src="images/search-icon.png" alt="">
+                <img class="voice-search-icon" src="images/voice-search-icon.png" alt="">
+                <img class="lens-icon" src="images/Google_Lens_Icon.svg.png" alt="">
+            </div>
+
+            <div class="btn-wrapper">
+                <input class="btn" type="submit" value="Google Search">
+                <button class="btn">I'm Feeling Lucky</button>
+            </div>
         </form>
+
+        <div class="languages-div">
+            <pre>Google offered in:   <a href="#">हिन्दी</a>  <a href="#">বাংলা</a>  <a href="#">తెలుగు</a>  <a href="#">मराठी</a>  <a href="#">தமிழ்</a>  <a href="#">ગુજરાતી</a>  <a href="#">ಕನ್ನಡ</a>  <a href="#">മലയാളം</a>  <a href="#">ਪੰਜਾਬੀ</a></pre>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer-container">
+            <div class="footer-bar-1">India</div>
+    
+            <div class="footer-bar-2">
+                <div class="footer-bar-2-div-1">
+                    <div>Advertising</div>
+                    <div>Business</div>
+                    <div>How Search works</div>
+                </div>
+                <div class="footer-bar-2-div-2">
+                    <div>Privacy</div>
+                    <div>Terms</div>
+                    <div>Settings</div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
