@@ -22,10 +22,15 @@
 .footer-bar-2-div-1, .footer-bar-2-div-2{
     display: flex;
     justify-content: center;
-    column-gap: 25px;
+    column-gap: 30px;
     padding: 15px 20px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.footer-bar-2 div div:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* .footer-bar-2-div-1 div, .footer-bar-2-div-2 div{

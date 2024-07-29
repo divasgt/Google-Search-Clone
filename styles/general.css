@@ -37,7 +37,7 @@ body {
     display: flex;
     position: relative;
     margin: 0 auto;
-    width: 572px;
+    max-width: 572px;
     height: 48px;
     /* border: 1px solid blue; */
     /* background-color: pink; */
